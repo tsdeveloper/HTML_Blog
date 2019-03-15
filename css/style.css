@@ -1,0 +1,23 @@
+#jumbotron1 {
+    margin-top: 6%;
+}
+
+.p1 {
+    font-size: 14px !important;
+    padding-bottom: 1%;
+}
+
+.p2 {
+    font-size: 14px !important;
+    padding-top: 3%;
+}
+
+.inputcolor {
+    background-color: #f1eff0;
+}
+
+@media (max-width: 576px) {
+    #jumbotron1 {
+        margin-top: 15%;
+    }
+}
