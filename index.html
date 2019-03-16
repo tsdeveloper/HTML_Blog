@@ -12,7 +12,7 @@
 
     <!-- Início Barra de navegação -->
     <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">      
+        <div class="container">
             <div class="navbar-header">
                 <button type="button" data-target="#navbarCollapse" data-toggle="collapse"
                     class="navbar-toggle">
@@ -39,25 +39,25 @@
         <div class="jumbotron" id="jumbotron1">
             <h1>B2Brazil <small>- Development Test</small></h1>
             <p>
-                Nunc sit amet ipsum a ligula sagitis feugiat. Nulla facilisi. 
+                Nunc sit amet ipsum a ligula sagitis feugiat. Nulla facilisi.
                 Vestibulum ut sagittis quam, sit amet pretium enim.
                 Vestibulum vel dui nec ex condimentum convallis quis eget tortor.
                 Pellentesque convallis nibh nec sem ullamcorper vulputate. Donec ac pulvinar odio.
                 Vivamus egestas purus dui, sed gravida mauris volutpat in.
                 Etiam iaculis elementum massa, et varius justo lacinia non.
             </p>
-            
+
             <div class="row">
 
                 <section class="col-md-5">
                     <p class="p1">
-                        Nunc sit amet ipsum a ligula sagitis feugiat. Nulla facilisi. 
+                        Nunc sit amet ipsum a ligula sagitis feugiat. Nulla facilisi.
                         Vestibulum ut sagittis quam, sit amet pretium enim.
                         Vestibulum vel dui nec ex condimentum convallis quis eget tortor.
                         Pellentesque convallis nibh nec sem ullamcorper vulputate.
                     </p>
                     <p class="p1">
-                        Nunc sit amet ipsum a ligula sagitis feugiat. Nulla facilisi. 
+                        Nunc sit amet ipsum a ligula sagitis feugiat. Nulla facilisi.
                         Vestibulum ut sagittis quam, sit amet pretium enim.
                         Vestibulum vel dui nec ex condimentum convallis quis eget tortor.
                         Pellentesque convallis nibh nec sem ullamcorper vulputate. Donec ac pulvinar odio.
@@ -65,7 +65,7 @@
                         Etiam iaculis elementum massa, et varius justo lacinia non.
                     </p>
                     <p class="p1">
-                        Nunc sit amet ipsum a ligula sagitis feugiat. Nulla facilisi. 
+                        Nunc sit amet ipsum a ligula sagitis feugiat. Nulla facilisi.
                         Vestibulum ut sagittis quam, sit amet pretium enim.
                         Vestibulum vel dui nec ex condimentum convallis quis eget tortor.
                     </p>
@@ -96,12 +96,12 @@
                 <ul class="nav nav-pills">
                     <li class="active"><a data-toggle="pill" href="#home">Home</a></li>
                     <li><a data-toggle="pill" href="#profile">Profile</a></li>
-                    <li><a data-toggle="pill" href="#names">Names</a></li>
+                    <li><a class="names-table" data-toggle="pill">Names</a></li>
                 </ul>
                 <div class="tab-content" id="tabs">
                     <div id="home" class="tab-pane active">
                         <p class="p2">
-                            Nunc sit amet ipsum a ligula sagitis feugiat. Nulla facilisi. 
+                            Nunc sit amet ipsum a ligula sagitis feugiat. Nulla facilisi.
                             Vestibulum ut sagittis quam, sit amet pretium enim.
                             Vestibulum vel dui nec ex condimentum convallis quis eget tortor.
                             Pellentesque convallis nibh nec sem ullamcorper vulputate. Donec ac pulvinar odio.
@@ -111,7 +111,7 @@
                     </div>
                     <div id="profile" class="tab-pane">
                         <p class="p2">
-                            Nunc sit amet ipsum a ligula sagitis feugiat. Nulla facilisi. 
+                            Nunc sit amet ipsum a ligula sagitis feugiat. Nulla facilisi.
                             Vestibulum ut sagittis quam, sit amet pretium enim.
                             Vestibulum vel dui nec ex condimentum convallis quis eget tortor.
                             Pellentesque convallis nibh nec sem ullamcorper vulputate. Donec ac pulvinar odio.
@@ -119,7 +119,7 @@
                             Etiam iaculis elementum massa, et varius justo lacinia non.
                         </p>
                         <p class="p2">
-                            Nunc sit amet ipsum a ligula sagitis feugiat. Nulla facilisi. 
+                            Nunc sit amet ipsum a ligula sagitis feugiat. Nulla facilisi.
                             Vestibulum ut sagittis quam, sit amet pretium enim.
                             Vestibulum vel dui nec ex condimentum convallis quis eget tortor.
                             Pellentesque convallis nibh nec sem ullamcorper vulputate. Donec ac pulvinar odio.
@@ -158,10 +158,8 @@
                                         <td>the Bird</td>
                                         <td>@twitter</td>
                                     </tr>
-                                    <tr class="sub">
-                                        <td><a href="#" id="clicktable">Load more</a></td>
-                                    </tr>
-                                    
+
+
                                     <tr class="view">
                                         <td>4</td>
                                         <td>Mark</td>
@@ -228,26 +226,27 @@
                     <input type="text" name="subject" class="form-control inputcolor" placeholder="Subject" required>
                 </div>
                 <div class="form-group">
-                        <textarea name="message" class="form-control inputcolor" placeholder="Leave your message" 
+                        <textarea name="message" class="form-control inputcolor" placeholder="Leave your message"
                             cols="30" rows="6" required></textarea>
                 </div>
-                <button class="btn btn-primary pull-right">Send message</button> 
+                <button class="btn btn-primary pull-right">Send message</button>
             </form>
             <!-- Fim Formulário de Contato -->
         </section>
         <aside class="col-md-6">
                 <!-- Frame com localização do Google Maps -->
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d846556.8759675095!2d150.25246007433896!3d-34.0239612723556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1552621588998" 
-                    width="570" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d846556.8759675095!2d150.25246007433896!3d-34.0239612723556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1552621588998"
+                    width="570" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> -->
         </aside>
     </div>
-        
+
     <footer style="padding-top: 2%"></footer>
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.mask.min.js"></script>
     <script src="js/mask.js"></script>
     <script src="js/table.js"></script>
+    <script src="js/load-text.js"></script>
 </body>
 </html>

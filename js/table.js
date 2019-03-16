@@ -1,10 +1,10 @@
 $(document).ready(function(){
-    $("tbody tr:not(.sub)").hide();
+    // $("tbody tr:not(.sub)").hide();
 
-    $("#clicktable").click(function() {
-        $(".view").show();
-    });
+    // $("#clicktable").click(function() {
+    //     $(".view").show();
+    // });
 
-    $("tbody tr:#clicktable").hide();
+    // $("tbody tr:#clicktable").hide();
 
 });
